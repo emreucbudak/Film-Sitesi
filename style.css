@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Sen", sans-serif;
+}
+.dropdown-menu {
+    background-color: #8fbaff;
+}
+header {
+    background-color: #8fbaff;
+}
+body {
+    background-color: #8fbaff;
+}
+.iki {
+    margin-top: 5vh;
+}
+#buton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+#yanmenu {
+    position: absolute;
+    right: 5vh;
+    top: 10vh;
+}
+footer {
+    background-color: black;
+    height: 20vh;
+    color: white;
+}
+.menu h1 {
+    text-align: center;
+    margin-right: -5vw;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+#yanmenu {
+    width: 25%;
+    height: 100%;
+}
+#altmenu {
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    right: -1.5vw;
+}
+#altmenu li {
+    margin-top: 5vh;
+    text-decoration: underline;
+}
+#altmenu li::after {
+    content: "▼";
+}
